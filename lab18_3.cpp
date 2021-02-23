@@ -73,7 +73,7 @@ int main(){
 		double c;
 		sscanf(textline.c_str(),format,name,&a,&b,&c);
 		s.id = a;
-		s.name = name;
+		s.name = name; 
 		s.gender = b;
 		s.gpa = c;
 		allstudents.push_back(s); 		
