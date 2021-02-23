@@ -22,7 +22,7 @@ double overlap(Rect *q, Rect *w){
 		L2 = 0;
 	}
 	LT = L1*L2;
-	return LT;
+	return LT; 
 }
 
 int main(){
